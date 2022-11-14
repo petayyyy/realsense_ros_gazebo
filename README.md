@@ -12,7 +12,7 @@
   </xacro:realsense_T265>
 </xacro:if>
 ```
-Для установки камеры необходимо поменять параметр "t265" с false на true. Либо в запускаемом файле [spawn_drone.launch](https://github.com/CopterExpress/clover/blob/master/clover_description/launch/spawn_drone.launch) выставить флаг для установки камеры. Для этого необходимо довавить и заменить строки:
+Для установки камеры необходимо поменять параметр `t265` с false на true. Либо в запускаемом файле [spawn_drone.launch](https://github.com/CopterExpress/clover/blob/master/clover_description/launch/spawn_drone.launch) выставить флаг для установки камеры. Для этого необходимо довавить и заменить строки:
 ```bash
 <!-- Use t265 camera -->
 <arg name="t265" default="true"/>
@@ -31,13 +31,13 @@
 ```bash
 <origin rpy="0.0 1.57 0.0" xyz="-0.07 0 -0.04"/>
 ```
-Где "rpy" углы поворота камеры yaw, pitch, roll в радианах. При значениях по дефолту стоит направленной вниз. 
+Где `rpy` углы поворота камеры yaw, pitch, roll в радианах. При значениях по дефолту стоит направленной вниз. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/47917455/201782371-0ab02661-18cb-4a53-91b0-09c758f334c4.gif" alt="animated" />
 </p>
 
-И где "xyz" расположение камеры относительно центра полетного контроллера (относительно "base_link"). При значениях по дефолту камера располагается на нижней деке сзади. Как строются оси можно посмотреть на картинках ниже.  
+И где `xyz` расположение камеры относительно центра полетного контроллера (относительно `base_link`). При значениях по дефолту камера располагается на нижней деке сзади. Как строются оси можно посмотреть на картинках ниже.  
 ![image](https://user-images.githubusercontent.com/47917455/201780537-d0264b4c-0663-4596-9c05-cd7bb48d3bc8.png)
 
 ![image](https://user-images.githubusercontent.com/47917455/201781249-8f758745-4e76-4020-87bd-f628db2fad0d.png)
