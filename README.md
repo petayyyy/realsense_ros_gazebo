@@ -25,3 +25,8 @@
 * /camera/**fisheye2**/* - изображение со второй камеры
 * /camera/**gyro**/sample - показатели гироскова, не используются
 * /camera/**odom**/sample - одомерия камеры, передаем дрону для координации в пространстве
+
+![image](https://user-images.githubusercontent.com/47917455/201780537-d0264b4c-0663-4596-9c05-cd7bb48d3bc8.png)
+
+![image](https://user-images.githubusercontent.com/47917455/201781249-8f758745-4e76-4020-87bd-f628db2fad0d.png)
+
