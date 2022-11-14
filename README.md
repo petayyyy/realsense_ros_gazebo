@@ -11,7 +11,12 @@
   </xacro:realsense_T265>
 </xacro:if>
 ```
-Для установки кемеры необходимо поменять параметр "t265" с false на true. Либо в запускаемом файле [spawn_drone.launch](drone/spawn_drone.launch) выставить флаг для установки камеры.
+Для установки камеры необходимо поменять параметр "t265" с false на true. Либо в запускаемом файле [spawn_drone.launch](drone/spawn_drone.launch) выставить флаг для установки камеры.
+```bash
+<!-- Use t265 camera -->
+<arg name="t265" default="true"/>
+<arg name="cmd" default="$(find xacro)/xacro $(find clover_description)/urdf/clover/clover4.xacro main_camera:=$(arg main_camera) rangefinder:=$(arg rangefinder) led:=$(arg led) gps:=$(arg gps) maintain_camera_rate:=$(arg maintain_camera_rate) use_clover_physics:=$(arg use_clover_physics) t265:=$(arg t265)"/>
+```
 ### !!!!!!!!!!!!Оба файла, которые вы редактируете это файлы запуска симуляции и редактировать их нужно в вашем [симуляторе]([drone/spawn_drone.launch](https://github.com/CopterExpress/clover/tree/master/clover_description)), а не в этой директории.###
 ### Название топиков ###
 * /camera/**fisheye1**/* - изображение с первой камеры
