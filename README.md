@@ -34,8 +34,9 @@
 Где "rpy" углы поворота камеры yaw, pitch, roll в радианах. При значениях по дефолту стоит направленной вниз. 
 
 <p align="center">
-  <img src="[demo.gif](https://user-images.githubusercontent.com/47917455/201782371-0ab02661-18cb-4a53-91b0-09c758f334c4.gif)" alt="animated" />
+  <img src="https://user-images.githubusercontent.com/47917455/201782371-0ab02661-18cb-4a53-91b0-09c758f334c4.gif" alt="animated" />
 </p>
+
 И где "xyz" расположение камеры относительно центра полетного контроллера (относительно "base_link"). При значениях по дефолту камера располагается на нижней деке сзади. Как строются оси можно посмотреть на картинках ниже.  
 ![image](https://user-images.githubusercontent.com/47917455/201780537-d0264b4c-0663-4596-9c05-cd7bb48d3bc8.png)
 
