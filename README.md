@@ -17,6 +17,7 @@
 <arg name="t265" default="true"/>
 <arg name="cmd" default="$(find xacro)/xacro $(find clover_description)/urdf/clover/clover4.xacro main_camera:=$(arg main_camera) rangefinder:=$(arg rangefinder) led:=$(arg led) gps:=$(arg gps) maintain_camera_rate:=$(arg maintain_camera_rate) use_clover_physics:=$(arg use_clover_physics) t265:=$(arg t265)"/>
 ```
+Примеры редактирования данных файлов вы можете посмотреть в [директории](drone/).
 ## !!!!!!!!!!!!Оба файла, которые вы редактируете это файлы запуска симуляции и редактировать их нужно в вашем [симуляторе]([drone/spawn_drone.launch](https://github.com/CopterExpress/clover/tree/master/clover_description)), а не в этой директории.
 ### Название топиков ###
 * /camera/**fisheye1**/* - изображение с первой камеры
