@@ -11,7 +11,7 @@
   </xacro:realsense_T265>
 </xacro:if>
 ```
-Для установки камеры необходимо поменять параметр "t265" с false на true. Либо в запускаемом файле [spawn_drone.launch](https://github.com/CopterExpress/clover/blob/master/clover_description/launch/spawn_drone.launch) выставить флаг для установки камеры.
+Для установки камеры необходимо поменять параметр "t265" с false на true. Либо в запускаемом файле [spawn_drone.launch](https://github.com/CopterExpress/clover/blob/master/clover_description/launch/spawn_drone.launch) выставить флаг для установки камеры. Для этого необходимо довавить и заменить строки:
 ```bash
 <!-- Use t265 camera -->
 <arg name="t265" default="true"/>
