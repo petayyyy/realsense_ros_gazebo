@@ -1,5 +1,5 @@
 ### Запуск t265 камеры на дроне ###
-Необходимо добавить данные строки в файл "clover4.xacro".  
+Необходимо добавить данные строки в файл [clover4.xacro](drone/clover4.xacro).  
 ```bash
 <!-- t265 flag -->
 <xacro:arg name="t265" default="false"/>
