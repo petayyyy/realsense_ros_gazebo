@@ -1,5 +1,5 @@
 # !Данная установка камеры проверенна и корректно работает на 18.04 ubuntu в версии симулятора [0.3](https://github.com/CopterExpress/clover_vm/releases/tag/v0.3).  
-### Запуск t265 камеры на дроне ###
+## Запуск t265 камеры на дроне
 Необходимо добавить данные строки в файл [clover4.xacro]([drone/clover4.xacro](https://github.com/CopterExpress/clover/blob/master/clover_description/urdf/clover/clover4.xacro)).  
 ```bash
 <!-- t265 flag -->
