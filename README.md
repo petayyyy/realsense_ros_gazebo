@@ -4,6 +4,12 @@
 cd ~/catkin_ws/src
 git clone https://github.com/petayyyy/realsense_ros_gazebo
 ```
+## Сборка
+```bash
+cd ~/catkin_ws
+catkin_make
+sourse ~/.bashrc
+```
 ## Запуск t265 камеры на дроне
 Необходимо добавить данные строки в файл [clover4.xacro]([drone/clover4.xacro](https://github.com/CopterExpress/clover/blob/master/clover_description/urdf/clover/clover4.xacro)).  
 ```bash
